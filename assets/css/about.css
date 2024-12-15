@@ -3413,7 +3413,7 @@ button:disabled,
 
 @media screen and (max-width: 736px) {
   .wrapper {
-    padding: 3em 2em 1em 2em;
+    padding: 2em 2em 1em 2em;
   }
 }
 
@@ -3962,8 +3962,14 @@ body.is-preload #banner:after {
 
 @media screen and (max-width: 736px) {
   #main > header {
-    padding: 5em 3em 3em 3em;
+    padding: 2em 3em 3em 3em;
   }
+
+  .BLJ {
+    width: 75%!important;
+    margin-top: 0.5rem;
+  }
+  
 
   #main > header h2 {
     font-size: 1.25em;
@@ -4327,6 +4333,6 @@ body.is-mobile.landing #footer {
 }
 
 .BLJ {
-  width: 41%;
+  width: 20%;
   margin-top: 0.5rem;
 }

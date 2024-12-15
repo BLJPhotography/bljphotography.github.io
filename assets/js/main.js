@@ -689,11 +689,11 @@ $("#play-jquery").on("click", function () {
 
 function withVelocity() {
   $(".end-left-about").velocity(
-    { left: "auto", top: "35%" },
+    { left: "", top: "35%" },
     "easeOutExpo",
     1200
   );
-  $(".end-left").velocity({ left: "auto", top: "35%" }, "easeOutExpo", 1200);
+  $(".end-left").velocity({ left: "1rem", top: "35%", marginRight: "2rem" }, "easeOutExpo", 1200);
   $(".orbs span").velocity(
     { top: "-300px", scaleX: ".2", scaleY: ".2", color: "blue" },
     0
@@ -723,11 +723,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // var myVar;
 
-// function myFunction() {
-//   if (document.readyState === "complete") {
-//     document.getElementById("loader").style.display = "none";
-//     document.querySelector(".myDiv").style.display = "block";
-//   } else {
-//     console.log(document.readyState);
-//   }
-// }
+function myFunction() {
+  if (document.readyState === "complete") {
+    document.getElementById("loader").style.display = "none";
+    document.querySelector(".myDiv").style.display = "block";
+  } else {
+    console.log(document.readyState);
+  }
+}
